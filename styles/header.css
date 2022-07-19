@@ -1,0 +1,55 @@
+/************/
+/** Header **/
+/************/
+
+header.heading-container {
+    color: #fff;
+    background: #161616;
+    border-radius: 30px;
+    display: flex;
+
+    /* change in larger device */
+    max-width: 1300px;
+
+}
+
+.heading-text {
+    margin: 50px 10px 50px 50px;
+    /* border: 2px solid red; */
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.heading-text h1 {
+    margin-top: 0;
+    font-size: 70px;
+    font-weight: 700;
+}
+
+.heading-text p {
+    font-size: 16px;
+}
+
+.heading-text button {
+    background: #d00;
+    color: #fff;
+    font-size: 20px;
+    padding: 16px 25px;
+    border: 0;
+    border-radius: 5px;
+}
+
+.heading-img {
+    width: 50%;
+    padding-bottom: 0;
+    display: flex;
+    align-items: flex-end;
+}
+
+.heading-img img {
+    width: 100%;
+    /* margin-bottom: 0; */
+}
