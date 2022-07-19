@@ -28,6 +28,7 @@ header.heading-container {
     margin-top: 0;
     font-size: 70px;
     font-weight: 700;
+    line-height: 100%;
 }
 
 .heading-text p {
@@ -35,9 +36,10 @@ header.heading-container {
 }
 
 .heading-text button {
-    background: #d00;
+    background: #d21f27;
     color: #fff;
     font-size: 20px;
+    font-weight: 600;
     padding: 16px 25px;
     border: 0;
     border-radius: 5px;

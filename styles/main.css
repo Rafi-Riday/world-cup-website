@@ -1,0 +1,43 @@
+/**************************/
+/** Main Content Styling **/
+/**************************/
+
+main {
+    display: flex;
+    flex-direction: row;
+}
+
+main nav {
+    background: #161616;
+    height: 240px;
+    width: 312px;
+    border-radius: 10px;
+    padding: 0 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+main nav button {
+    padding: 16px 30px;
+    background: #fff;
+    color: #161616;
+    font-size: 14px;
+    font-weight: 650;
+    border: 0;
+    border-radius: 5px;
+}
+
+main nav button.selected {
+    background: #d21f27;
+    color: #fff;
+}
+
+section.blogs {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+article.blog img {
+    width: 100%;
+}
