@@ -20,15 +20,15 @@ article.content .content-info button {
     cursor: pointer;
 }
 
+article.content .content-info h1 {
+    font-size: 18px;
+    font-weight: 600;
+}
+
 article.content .content-info .more-info {
-    font-size: 16px;
+    font-size: 14px;
     color: #161616b3;
     width: 60%;
     display: flex;
     justify-content: space-between;
-}
-
-article.content .content-info p {
-    font-size: 18px;
-    font-weight: 600;
 }
