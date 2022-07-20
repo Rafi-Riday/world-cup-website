@@ -5,6 +5,7 @@
 article.content {
     padding: 20px;
     background: #0000001e;
+    text-align: center;
 }
 
 article.content .content-img {
