@@ -1,0 +1,33 @@
+/***************************************/
+/** Styling Content of All Group **/
+/***************************************/
+article.content {
+    background: #0000001e;
+    text-align: center;
+}
+
+article.content .content-img {
+    width: 100%;
+}
+
+article.content img {
+    width: 100%;
+    border-radius: 15px 15px 0 0;
+}
+
+article.content .content-info {
+    padding: 0 20px 20px;
+}
+
+article.content .content-info h1 {
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+article.content .content-info .more-info {
+    font-size: 14px;
+    color: #000000b3;
+    width: 100%;
+}
