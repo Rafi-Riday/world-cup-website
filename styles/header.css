@@ -8,10 +8,7 @@ header.heading-container {
     margin: 50px 50px 0 50px;
     border-radius: 30px;
     display: flex;
-
-    /* change in larger device */
     max-width: 1300px;
-
 }
 
 .heading-text {
