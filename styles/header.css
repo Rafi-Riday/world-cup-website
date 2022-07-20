@@ -8,12 +8,11 @@ header.heading-container {
     margin: 50px 50px 0;
     border-radius: 30px;
     display: flex;
-    max-width: 1300px;
+    max-width: 1400px;
 }
 
 .heading-text {
     margin: 50px 10px 50px 50px;
-    /* border: 2px solid red; */
     width: 50%;
     display: flex;
     flex-direction: column;
