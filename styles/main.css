@@ -44,7 +44,7 @@ main nav a button.selected {
     color: #fff;
 }
 
-section.blogs {
+section.container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     /* row-gap: 24px;
@@ -52,39 +52,8 @@ section.blogs {
     gap: 24px;
 }
 
-article.blog {
+article.content {
     background: #fff;
     border-radius: 15px;
     box-shadow: 0 0 7px #333;
-}
-
-article.blog img {
-    width: 100%;
-    border-radius: 10px 10px 0 0;
-}
-
-article.blog .blog-info {
-    padding: 20px;
-}
-
-article.blog .blog-info button {
-    background: #fff;
-    border: 1px solid #00000050;
-    border-radius: 3px;
-    height: 30px;
-    width: 80px;
-    cursor: pointer;
-}
-
-article.blog .blog-info .more-info {
-    font-size: 16px;
-    color: #161616b3;
-    width: 60%;
-    display: flex;
-    justify-content: space-between;
-}
-
-article.blog .blog-info p {
-    font-size: 18px;
-    font-weight: 600;
 }

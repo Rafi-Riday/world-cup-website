@@ -1,0 +1,30 @@
+article.content img {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+
+article.content .content-info {
+    padding: 20px;
+}
+
+article.content .content-info button {
+    background: #fff;
+    border: 1px solid #00000050;
+    border-radius: 3px;
+    height: 30px;
+    width: 80px;
+    cursor: pointer;
+}
+
+article.content .content-info .more-info {
+    font-size: 16px;
+    color: #161616b3;
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+
+article.content .content-info p {
+    font-size: 18px;
+    font-weight: 600;
+}
