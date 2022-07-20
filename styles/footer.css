@@ -33,6 +33,18 @@ footer p {
     flex-wrap: wrap;
 }
 
+footer .icon {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    font-size: 25px;
+}
+
+footer .icon span {
+    cursor: pointer;
+}
+
+/* Footer In Phone */
 @media only screen and (max-width:576px) {
     footer p {
         font-size: 14px;
@@ -45,8 +57,16 @@ footer p {
         font-size: 25px;
         font-weight: 700;
     }
+
+    footer .icon {
+        flex-direction: column;
+        font-size: 20px;
+        gap: 10px;
+        margin-top: 20px;
+    }
 }
 
+/* Footer In Tablet */
 @media only screen and (min-width: 576px) and (max-width:992px) {
     footer p {
         font-size: 15px;

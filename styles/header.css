@@ -54,6 +54,7 @@ header.heading-container {
     /* margin-bottom: 0; */
 }
 
+/* Header In Phone */
 @media only screen and (max-width:576px) {
     header.heading-container {
         background: linear-gradient(180deg, #000, #8d8d8d);
@@ -92,6 +93,7 @@ header.heading-container {
     }
 }
 
+/* Header In Tablet */
 @media only screen and (min-width: 576px) and (max-width:992px) {
     header.heading-container {
         margin: 30px 25px 0;
