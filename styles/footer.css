@@ -1,7 +1,6 @@
 /********************/
 /** Footer Styling **/
 /********************/
-
 footer {
     background: #161616;
     width: 100%;
@@ -45,7 +44,9 @@ footer .icon a {
     color: #fff;
 }
 
+/*******************/
 /* Footer In Phone */
+/*******************/
 @media only screen and (max-width:576px) {
     footer p {
         font-size: 14px;
@@ -67,7 +68,9 @@ footer .icon a {
     }
 }
 
+/********************/
 /* Footer In Tablet */
+/********************/
 @media only screen and (min-width: 576px) and (max-width:992px) {
     footer p {
         font-size: 15px;

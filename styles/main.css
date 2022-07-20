@@ -1,7 +1,6 @@
 /**************************/
 /** Main Content Styling **/
 /**************************/
-
 main {
     margin: 50px 50px 0 50px;
     display: grid;
@@ -63,7 +62,9 @@ main .view-all {
     display: none;
 }
 
+/*****************/
 /* Main In Phone */
+/*****************/
 @media only screen and (max-width: 576px) {
     main {
         margin: 30px 20px 0;
@@ -111,7 +112,9 @@ main .view-all {
     }
 }
 
+/******************/
 /* Main In Tablet */
+/******************/
 @media only screen and (min-width: 576px) and (max-width:992px) {
     main {
         margin: 30px 25px 0;
