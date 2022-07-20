@@ -3,8 +3,10 @@
 /**************************/
 
 main {
+    margin: 50px 50px 0 50px;
     display: flex;
     flex-direction: row;
+    gap: 24px;
 }
 
 main nav {
@@ -18,7 +20,13 @@ main nav {
     justify-content: space-evenly;
 }
 
-main nav button {
+main nav a {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+}
+
+main nav a button {
     padding: 16px 30px;
     background: #fff;
     color: #161616;
@@ -26,9 +34,10 @@ main nav button {
     font-weight: 650;
     border: 0;
     border-radius: 5px;
+    cursor: pointer;
 }
 
-main nav button.selected {
+main nav a button.selected {
     background: #d21f27;
     color: #fff;
 }
@@ -36,8 +45,44 @@ main nav button.selected {
 section.blogs {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    /* row-gap: 24px;
+    column-gap: 24px; */
+    gap: 24px;
+}
+
+article.blog {
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0 0 7px #333;
 }
 
 article.blog img {
     width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+
+article.blog .blog-info {
+    padding: 20px;
+}
+
+article.blog .blog-info button {
+    background: #fff;
+    border: 1px solid #00000050;
+    border-radius: 3px;
+    height: 30px;
+    width: 80px;
+    cursor: pointer;
+}
+
+article.blog .blog-info .more-info {
+    font-size: 16px;
+    color: #161616b3;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+article.blog .blog-info p {
+    font-size: 18px;
+    font-weight: 600;
 }
