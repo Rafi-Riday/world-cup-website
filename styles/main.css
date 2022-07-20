@@ -4,9 +4,8 @@
 
 main {
     margin: 50px 50px 0 50px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: 0.25fr 3fr;
     gap: 24px;
     max-width: 1300px;
 }
@@ -51,10 +50,7 @@ main nav a button.selected {
 section.container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    /* row-gap: 24px;
-    column-gap: 24px; */
     gap: 24px;
-    /* width: 100%; */
 }
 
 article.content {
@@ -63,14 +59,15 @@ article.content {
     box-shadow: 0 0 7px #333;
 }
 
+main .view-all {
+    display: none;
+}
 
 @media only screen and (max-width: 576px) {
     main {
         margin: 30px 20px 0;
-        flex-direction: column;
-        align-items: center;
         gap: 24px;
-        /* width: 100%; */
+        grid-template-columns: 1fr;
     }
 
     main nav {
@@ -107,14 +104,17 @@ article.content {
     section.container>article.blog:nth-child(9) {
         display: none;
     }
+
+    main .view-all {
+        display: none;
+    }
 }
 
 @media only screen and (min-width: 576px) and (max-width:992px) {
     main {
         margin: 30px 25px 0;
-        flex-direction: column;
-        align-items: center;
         gap: 24px;
+        grid-template-columns: 1fr;
     }
 
     main nav {
@@ -151,5 +151,23 @@ article.content {
     section.container>article.blog:nth-child(8),
     section.container>article.blog:nth-child(9) {
         display: none;
+    }
+
+    main .view-all {
+        display: block;
+        text-align: center;
+        margin-top: 50px;
+    }
+
+    main .view-all button {
+        background: #d21f27;
+        color: #fff;
+        font-size: 20px;
+        font-weight: 600;
+        padding: 16px 25px;
+        border: 0;
+        border-radius: 5px;
+        cursor: pointer;
+        display: inline-block;
     }
 }
