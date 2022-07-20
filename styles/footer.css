@@ -40,8 +40,9 @@ footer .icon {
     font-size: 25px;
 }
 
-footer .icon span {
-    cursor: pointer;
+footer .icon a {
+    text-decoration: none;
+    color: #fff;
 }
 
 /* Footer In Phone */
