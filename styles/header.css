@@ -53,6 +53,7 @@ header.heading-container {
     height: 50vw;
     width: 50vw;
     bottom: 0px;
+    animation: anime-bg 25s infinite;
 }
 
 /*******************/
