@@ -73,6 +73,8 @@ header.heading-container {
 
     .heading-text h1 {
         font-size: 22px;
+        margin-top: 20px;
+        margin-bottom: 0;
     }
 
     .heading-text p {
