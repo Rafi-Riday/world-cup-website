@@ -24,15 +24,18 @@ header.heading-container {
 }
 
 .heading-text h1 {
+    color: #ffffff;
     margin-top: 10px;
     font-size: 50px;
     font-weight: 700;
     line-height: 100%;
-    animation: anime-header-text 5s 1 ease-out 2s;
+    animation: anime-header-text 5s 1 ease-out 0.2s;
 }
 
 .heading-text p {
+    color: #ffffff;
     font-size: 16px;
+    animation: anime-header-text 5s 1 ease-out 0.6s;
 }
 
 .heading-text button {
