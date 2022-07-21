@@ -25,7 +25,8 @@ article.content .content-info h1 {
 }
 
 article.content .content-info .more-info {
-    font-size: 14px;
+    font-size: 12px;
+    font-weight: 900;
     color: var(--more-info);
     width: 100%;
 }

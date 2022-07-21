@@ -4,49 +4,64 @@
 
 :root {
     /* Body */
-    --body-bg: #fff;
-    --nav-btn-bg: #fff;
+    --body-bg: #241a3c;
     /**/
     --btn-s-txt: #fff;
-    --btn-s-bg: #d21f27;
-    --btn-s-box-shadow: 0 0 10px #ff0000;
+    --s-pr-bg: linear-gradient(90deg, #ff2613, #ff665c);
+    --s-pr-box-shadow: 0 0 20px #ff665c;
+
+    --s-ar-bg: linear-gradient(45deg, #0086ee, #00d8ab);
+    --s-ar-box-shadow: 0 0 20px #00d8ab;
+
+    --s-br-bg: linear-gradient(79deg, #ffc320, #ff9f34);
+    --s-br-box-shadow: 0 0 20px #ff9f34;
+
     --small-btn-s-border: 0;
 
     /* Header */
     --header-txt: #fff;
-    --header-bg: linear-gradient(110deg, #000, #8d8d8d);
-    --header-box-shadow: 0 0 10px #000;
+    --header-bg: linear-gradient(110deg, #37295e, #bb86fc);
+    --header-box-shadow: 0 0 20px #bb86fc;
     /**/
-    --header-phn-bg: linear-gradient(180deg, #000, #8d8d8d);
+    --header-phn-bg: linear-gradient(180deg, #37295e, #bb86fc);
 
     /* Main */
-    --nav-bg: #161616;
+    --nav-bg: #8762ff;
     --nav-btn-txt: #161616;
-    --nav-box-shadow: 0 0 10px #000000;
-    --nav-btn-box-shadow: 0 0 10px #ffffff;
+    --nav-btn-bg: #fff;
+    --nav-box-shadow: 0 0 10px #3e2a80;
+    --nav-btn-box-shadow: 0 0 10px #cacaca;
     /**/
-    --nav-small-txt: #fff;
-    --nav-small-bg: #00000000;
-    --nav-small-btn-bg: #ffefdd88;
-    --nav-small-btn-border: 1px solid #0000003d;
-    --nav-small-box-shadow: 0 0 0px #000000;
+    /* --nav-small-txt: #fff; */
+    --nav-small-bg: #b6b6b600;
+    --nav-small-btn-bg: #fff4e8;
+    --nav-small-btn-border: 1px solid #ffffff;
+    --nav-small-box-shadow: 0 0 0px #ffffff;
     /**/
-    --content-bg: #fff;
-    --content-box-shadow: 0 0 10px #333;
+    --content-txt: #313131;
+
+    --content-1-bg: #ffd8d8;
+    --content-1-box-shadow: 0 0 20px #ffd8d8;
+
+    --content-2-bg: #b7f7ff;
+    --content-2-box-shadow: 0 0 20px #b7f7ff;
+
+    --content-3-bg: #ffe8aa;
+    --content-3-box-shadow: 0 0 20px #ffe8aa;
     /**/
-    --content-info-btn-txt: #000;
-    --content-info-btn-bg: #fff;
-    --content-info-btn-border: 1px solid #00000050;
+    --content-info-btn-txt: #d6d6d6;
+    --content-info-btn-bg: #34343d;
+    --content-info-btn-border: 0;
 
     /* home */
     /* All Group */
     /* Upcoming */
-    --more-info: #161616b3;
+    --more-info: #313131;
 
     /* Footer */
     --footer-txt: #fff;
-    --footer-bg: #161616;
+    --footer-bg: #433962;
     --footer-hr: 1px solid #ffffff;
-    --footer-hr-box-shadow: 0 0 20px 15px #333;
+    --footer-hr-box-shadow: 0 0 10px 2px #ffffff;
     --footer-icon-txt: #fff;
 }

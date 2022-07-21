@@ -45,8 +45,8 @@ main nav a button {
 
 main nav a button.selected {
     color: var(--btn-s-txt);
-    background: var(--btn-s-bg);
-    box-shadow: var(--btn-s-box-shadow);
+    background: var(--s-pr-bg);
+    box-shadow: var(--s-pr-box-shadow);
 }
 
 section.container {
@@ -56,9 +56,23 @@ section.container {
 }
 
 article.content {
-    background: var(--content-bg);
-    box-shadow: var(--content-box-shadow);
+    color: var(--content-txt);
     border-radius: 15px;
+}
+
+.container>article.content:nth-child(3n) {
+    background: var(--content-1-bg);
+    box-shadow: var(--content-1-box-shadow);
+}
+
+.container>article.content:nth-child(3n - 1) {
+    background: var(--content-2-bg);
+    box-shadow: var(--content-2-box-shadow);
+}
+
+.container>article.content:nth-child(3n - 2) {
+    background: var(--content-3-bg);
+    box-shadow: var(--content-3-box-shadow);
 }
 
 main .view-all {
@@ -173,8 +187,8 @@ main .view-all {
 
     main .view-all button {
         color: var(--btn-s-txt);
-        background: var(--btn-s-bg);
-        box-shadow: var(--btn-s-box-shadow);
+        background: var(--s-pr-bg);
+        box-shadow: var(--s-pr-box-shadow);
         font-size: 20px;
         font-weight: 600;
         padding: 16px 25px;
