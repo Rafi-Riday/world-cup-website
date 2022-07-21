@@ -116,8 +116,6 @@ header.heading-container {
 @media only screen and (min-width: 576px) and (max-width:992px) {
     header.heading-container {
         margin: 30px 25px 0;
-        /* display: grid;
-        grid-template-columns: 1fr 1fr; */
     }
 
     .heading-text {
