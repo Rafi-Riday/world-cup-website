@@ -65,3 +65,14 @@
         box-shadow: var(--s-br-box-shadow);
     }
 }
+
+@keyframes anime-header-text {
+    0% {
+        color: #ffffff00;
+    }
+
+    100% {
+        color: var(--header-txt);
+    }
+
+}

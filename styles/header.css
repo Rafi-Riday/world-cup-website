@@ -24,10 +24,11 @@ header.heading-container {
 }
 
 .heading-text h1 {
-    margin-top: 0;
-    font-size: 70px;
+    margin-top: 10px;
+    font-size: 50px;
     font-weight: 700;
     line-height: 100%;
+    animation: anime-header-text 5s 1 ease-out 2s;
 }
 
 .heading-text p {
