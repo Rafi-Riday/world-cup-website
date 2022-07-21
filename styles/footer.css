@@ -2,11 +2,11 @@
 /** Footer Styling **/
 /********************/
 footer {
-    background: #161616;
+    color: var(--footer-txt);
+    background: var(--footer-bg);
     width: 100%;
     padding: 75px 0;
     margin: 100px 0 0 0;
-    color: #fff;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -19,7 +19,7 @@ footer h1 {
 
 footer hr {
     width: 90%;
-    border: 1px solid #ffffff;
+    border: var(--footer-hr);
 }
 
 footer p {
@@ -41,7 +41,7 @@ footer .icon {
 
 footer .icon a {
     text-decoration: none;
-    color: #fff;
+    color: var(--footer-icon-txt);
 }
 
 /*******************/

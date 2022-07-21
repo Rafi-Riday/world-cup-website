@@ -7,10 +7,10 @@
     --body-bg: #fff;
 
     /* Header */
-    --header-color: #fff;
+    --header-txt: #fff;
     --header-bg: linear-gradient(110deg, #000, #8d8d8d);
     --header-phn-bg: linear-gradient(180deg, #000, #8d8d8d);
-    --header-btn-color: #fff;
+    --header-btn-txt: #fff;
     --header-btn-bg: #d21f27;
 
     /* Main */
@@ -22,4 +22,8 @@
     /* Upcoming */
 
     /* Footer */
+    --footer-txt: #fff;
+    --footer-bg: #161616;
+    --footer-hr: 1px solid #ffffff;
+    --footer-icon-txt: #fff;
 }
