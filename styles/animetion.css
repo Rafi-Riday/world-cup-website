@@ -28,3 +28,40 @@
         background-image: url(../img/banners/banner-1.png);
     }
 }
+
+@keyframes anime-btn {
+    0% {
+        background: var(--s-br-bg);
+        box-shadow: var(--s-br-box-shadow);
+    }
+
+    16% {
+        background: var(--s-br-bg);
+        box-shadow: var(--s-br-box-shadow);
+    }
+
+    33% {
+        background: var(--s-ar-bg);
+        box-shadow: var(--s-ar-box-shadow);
+    }
+
+    48% {
+        background: var(--s-ar-bg);
+        box-shadow: var(--s-ar-box-shadow);
+    }
+
+    65% {
+        background: var(--s-pr-bg);
+        box-shadow: var(--s-pr-box-shadow);
+    }
+
+    80% {
+        background: var(--s-pr-bg);
+        box-shadow: var(--s-pr-box-shadow);
+    }
+
+    100% {
+        background: var(--s-br-bg);
+        box-shadow: var(--s-br-box-shadow);
+    }
+}

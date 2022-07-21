@@ -47,6 +47,7 @@ main nav a button.selected {
     color: var(--btn-s-txt);
     background: var(--s-pr-bg);
     box-shadow: var(--s-pr-box-shadow);
+    animation: anime-btn 25s infinite;
 }
 
 section.container {
@@ -195,6 +196,7 @@ main .view-all {
         border: 0;
         border-radius: 5px;
         cursor: pointer;
+        animation: anime-btn 25s infinite;
         display: inline-block;
     }
 }
