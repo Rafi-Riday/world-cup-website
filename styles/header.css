@@ -71,7 +71,7 @@ header.heading-container {
     .heading-text {
         width: 100%;
         text-align: center;
-        margin: 25px 0;
+        margin: 25px 10px;
         align-items: center;
     }
 
