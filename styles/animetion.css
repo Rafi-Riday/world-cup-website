@@ -1,34 +1,18 @@
 /* Animation */
-@keyframes anime-bg {
+
+/* Animation for Header Text */
+@keyframes anime-header-text {
     0% {
-        background-image: url(../img/banners/banner-1.png);
-    }
-
-    16% {
-        background-image: url(../img/banners/banner-1.png);
-    }
-
-    33% {
-        background-image: url(../img/banners/banner-2.png);
-    }
-
-    48% {
-        background-image: url(../img/banners/banner-2.png);
-    }
-
-    65% {
-        background-image: url(../img/banners/banner-3.png);
-    }
-
-    80% {
-        background-image: url(../img/banners/banner-3.png);
+        color: #ffffff00;
     }
 
     100% {
-        background-image: url(../img/banners/banner-1.png);
+        color: var(--header-txt);
     }
+
 }
 
+/* Animation for Special Theme Buttons */
 @keyframes anime-btn {
     0% {
         background-color: var(--s-br-bg);
@@ -66,13 +50,33 @@
     }
 }
 
-@keyframes anime-header-text {
+/* Animation for Theme Image */
+@keyframes anime-bg {
     0% {
-        color: #ffffff00;
+        background-image: url(../img/banners/banner-1.png);
+    }
+
+    16% {
+        background-image: url(../img/banners/banner-1.png);
+    }
+
+    33% {
+        background-image: url(../img/banners/banner-2.png);
+    }
+
+    48% {
+        background-image: url(../img/banners/banner-2.png);
+    }
+
+    65% {
+        background-image: url(../img/banners/banner-3.png);
+    }
+
+    80% {
+        background-image: url(../img/banners/banner-3.png);
     }
 
     100% {
-        color: var(--header-txt);
+        background-image: url(../img/banners/banner-1.png);
     }
-
 }
