@@ -20,6 +20,8 @@ footer h1 {
 footer hr {
     width: 90%;
     border: var(--footer-hr);
+    box-shadow: var(--footer-hr-box-shadow);
+    margin-bottom: 25px;
 }
 
 footer p {
@@ -61,9 +63,9 @@ footer .icon a {
     }
 
     footer .icon {
-        flex-direction: column;
-        font-size: 20px;
-        gap: 10px;
+        /* flex-direction: column; */
+        font-size: 25px;
+        gap: 30px;
         margin-top: 20px;
     }
 }

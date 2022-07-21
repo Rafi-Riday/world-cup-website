@@ -4,6 +4,7 @@
 header.heading-container {
     color: var(--header-txt);
     background: var(--header-bg);
+    box-shadow: var(--header-box-shadow);
     margin: 50px 50px 0;
     border-radius: 30px;
     display: flex;
@@ -33,6 +34,7 @@ header.heading-container {
 .heading-text button {
     color: var(--btn-s-txt);
     background: var(--btn-s-bg);
+    box-shadow: var(--btn-s-box-shadow);
     font-size: 20px;
     font-weight: 600;
     padding: 16px 25px;

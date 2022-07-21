@@ -3,7 +3,6 @@
 /***************************************/
 article.content {
     padding: 20px;
-    background: #0000001e;
     text-align: center;
 }
 
@@ -27,6 +26,6 @@ article.content .content-info h1 {
 
 article.content .content-info .more-info {
     font-size: 14px;
-    color: #000000b3;
+    color: var(--more-info);
     width: 100%;
 }
