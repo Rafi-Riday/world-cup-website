@@ -1,0 +1,25 @@
+/******************************************/
+/* Different Style-Sheet to Control Theme */
+/******************************************/
+
+:root {
+    /* Body */
+    --body-bg: #fff;
+
+    /* Header */
+    --header-color: #fff;
+    --header-bg: linear-gradient(110deg, #000, #8d8d8d);
+    --header-phn-bg: linear-gradient(180deg, #000, #8d8d8d);
+    --header-btn-color: #fff;
+    --header-btn-bg: #d21f27;
+
+    /* Main */
+
+    /* home */
+
+    /* All Group */
+
+    /* Upcoming */
+
+    /* Footer */
+}

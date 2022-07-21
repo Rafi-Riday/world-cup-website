@@ -8,7 +8,7 @@
 /************/
 body {
     font-family: 'Poppins', sans-serif;
-    background: #fff;
+    background: var(--body-bg);
     margin: 0;
     display: flex;
     flex-direction: column;

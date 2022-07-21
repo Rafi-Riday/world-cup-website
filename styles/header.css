@@ -2,8 +2,8 @@
 /** Header **/
 /************/
 header.heading-container {
-    color: #fff;
-    background: linear-gradient(110deg, #000, #8d8d8d);
+    color: var(--header-color);
+    background: var(--header-bg);
     margin: 50px 50px 0;
     border-radius: 30px;
     display: flex;
@@ -31,8 +31,8 @@ header.heading-container {
 }
 
 .heading-text button {
-    background: #d21f27;
-    color: #fff;
+    color: var(--header-btn-color);
+    background: var(--header-btn-bg);
     font-size: 20px;
     font-weight: 600;
     padding: 16px 25px;
@@ -57,7 +57,7 @@ header.heading-container {
 /*******************/
 @media only screen and (max-width:576px) {
     header.heading-container {
-        background: linear-gradient(180deg, #000, #8d8d8d);
+        background: var(--header-phn-bg);
         flex-direction: column;
         align-items: center;
         margin: 25px 20px 0;
