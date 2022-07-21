@@ -5,15 +5,28 @@
 :root {
     /* Body */
     --body-bg: #fff;
+    --nav-btn-bg: #fff;
+    /**/
+    --btn-s-txt: #fff;
+    --btn-s-bg: #d21f27;
+    --small-btn-s-border: 0;
 
     /* Header */
     --header-txt: #fff;
     --header-bg: linear-gradient(110deg, #000, #8d8d8d);
+    /**/
     --header-phn-bg: linear-gradient(180deg, #000, #8d8d8d);
-    --header-btn-txt: #fff;
-    --header-btn-bg: #d21f27;
 
     /* Main */
+    --nav-bg: #161616;
+    --nav-btn-txt: #161616;
+    /**/
+    --nav-small-bg: #00000000;
+    --nav-small-btn-bg: #ffefdd88;
+    --nav-small-btn-border: 1px solid #0000003d;
+    /**/
+    --content-bg: #fff;
+    --content-box-shadow: 0 0 7px #333;
 
     /* home */
 

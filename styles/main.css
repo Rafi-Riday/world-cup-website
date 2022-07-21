@@ -10,9 +10,9 @@ main {
 }
 
 main nav {
+    background: var(--nav-bg);
     position: sticky;
     top: 50px;
-    background: #161616;
     height: 230px;
     min-width: 160px;
     max-width: 250px;
@@ -31,9 +31,9 @@ main nav a {
 }
 
 main nav a button {
+    color: var(--nav-btn-txt);
+    background: var(--nav-btn-bg);
     padding: 16px 10px;
-    background: #fff;
-    color: #161616;
     font-size: 14px;
     font-weight: 600;
     border: 0;
@@ -42,8 +42,8 @@ main nav a button {
 }
 
 main nav a button.selected {
-    background: #d21f27;
-    color: #fff;
+    color: var(--btn-s-txt);
+    background: var(--btn-s-bg);
 }
 
 section.container {
@@ -53,9 +53,9 @@ section.container {
 }
 
 article.content {
-    background: #fff;
+    background: var(--content-bg);
+    box-shadow: var(--content-box-shadow);
     border-radius: 15px;
-    box-shadow: 0 0 7px #333;
 }
 
 main .view-all {
@@ -79,7 +79,7 @@ main .view-all {
         align-items: center;
         gap: 20px;
         border-radius: 0;
-        background-color: transparent;
+        background: var(--nav-small-bg);
         width: 100%;
         top: 0;
         min-width: 90%;
@@ -88,12 +88,12 @@ main .view-all {
     }
 
     main nav a button {
-        background: #ffefdd88;
-        border: 1px solid #0000003d;
+        background: var(--nav-small-btn-bg);
+        border: var(--nav-small-btn-border);
     }
 
     main nav a button.selected {
-        border: 0;
+        border: var(--small-btn-s-border);
     }
 
     section.container {
@@ -129,7 +129,7 @@ main .view-all {
         align-items: center;
         gap: 20px;
         border-radius: 0;
-        background-color: transparent;
+        background-color: var(--nav-small-bg);
         width: 100%;
         height: 70px;
         top: 0;
@@ -139,12 +139,12 @@ main .view-all {
     }
 
     main nav a button {
-        background: #ffefdd88;
-        border: 1px solid #0000003d;
+        background: var(--nav-small-btn-bg);
+        border: var(--nav-small-btn-border);
     }
 
     main nav a button.selected {
-        border: 0;
+        border: var(--small-btn-s-border);
     }
 
     section.container {
@@ -165,8 +165,8 @@ main .view-all {
     }
 
     main .view-all button {
-        background: #d21f27;
         color: #fff;
+        background: #d21f27;
         font-size: 20px;
         font-weight: 600;
         padding: 16px 25px;
