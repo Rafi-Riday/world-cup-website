@@ -7,13 +7,13 @@
     --body-bg: #241a3c;
     /**/
     --btn-s-txt: #fff;
-    --s-pr-bg: linear-gradient(90deg, #ff2613, #ff665c);
+    --s-pr-bg: #ff2613;
     --s-pr-box-shadow: 0 0 20px #ff665c;
 
-    --s-ar-bg: linear-gradient(45deg, #0086ee, #00d8ab);
+    --s-ar-bg: #00d8ab;
     --s-ar-box-shadow: 0 0 20px #00d8ab;
 
-    --s-br-bg: linear-gradient(79deg, #ffc320, #ff9f34);
+    --s-br-bg: #ff9f34;
     --s-br-box-shadow: 0 0 20px #ff9f34;
 
     --small-btn-s-border: 0;
