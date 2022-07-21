@@ -29,13 +29,13 @@ header.heading-container {
     font-size: 50px;
     font-weight: 700;
     line-height: 100%;
-    animation: anime-header-text 5s 1 ease-out 0.2s;
+    animation: anime-header-text 5s 1 ease-out;
 }
 
 .heading-text p {
     color: #ffffff;
     font-size: 16px;
-    animation: anime-header-text 5s 1 ease-out 0.6s;
+    animation: anime-header-text 10s 1 ease-out;
 }
 
 .heading-text button {
