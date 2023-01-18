@@ -2,4 +2,4 @@
 - HTML
 - CSS, Tailwind, DaisyUI
 - JavaScript
-#### Live Website: [https://rafi-riday-best-five-player.netlify.app/](https://rafi-riday-best-five-player.netlify.app/)
+#### Live Website: [https://rafi-riday.github.io/world-cup-website/](https://rafi-riday.github.io/world-cup-website/)
